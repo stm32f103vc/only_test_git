@@ -1,0 +1,1 @@
+在readme.txt修改后，增加一个新文件，即本文件LIENCE.txt，执行git status，git add readme.txt LIENCE.txt ,git status
