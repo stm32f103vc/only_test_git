@@ -1,1 +1,27 @@
 在readme.txt修改后，增加一个新文件，即本文件LIENCE.txt，执行git status，git add readme.txt LIENCE.txt ,git status
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LIENCE.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lcy@lcy-pc MINGW64 /d/only_test_git (master)
+$ git add readme.txt LIENCE.txt
+
+lcy@lcy-pc MINGW64 /d/only_test_git (master)
+$ git commit -m "测试git暂存区(stage)是怎么工作的"
+[master 81b58e7] 测试git暂存区(stage)是怎么工作的
+ 2 files changed, 3 insertions(+)
+ create mode 100644 LIENCE.txt
+
+lcy@lcy-pc MINGW64 /d/only_test_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
